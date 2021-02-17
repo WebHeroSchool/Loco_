@@ -2,16 +2,49 @@ body {
     display: block;
     margin: 0px;
 }
+input[type=checkbox]{
+  display: none;
+}
 .header{
   display: flex;
     justify-content: space-between;
     padding-top: 35px;
 margin-bottom: 98px;
 }
+
+.menu__btn > span,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: #000000;
+  margin-left: 29px;
+margin-bottom: 10px;
+}
+
+
+.menu__btn > span::after {
+  content: '';
+  top: 9px;
+  margin-left: 0px;
+
+}
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 92px;
+    height: 92px;
+    background-color: #E5E5E5;
+}
+
 .page1{
   height: 900px;
 width: 1440px;
-background: linear-gradient(to right, #000000 461px, #E5E5E5 32%);
+background: linear-gradient(to right, #000 461px, #FFF 32%);
 }
 .logo__text{
 font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
@@ -19,22 +52,20 @@ color: white;
 padding-left: 52px;
 letter-spacing: 2px;
 }
-.img{
-      margin-left: 8px;
-}
+
 .language{
 font: normal 20px/25px 'montserrat-medium', arial, helvetica, sans-serif;
-padding-right: 741px;
-padding-top: 7px;
+padding-right: 763px;
+padding-top: 6px;
 color: white;
 }
 
 .section{
   background: url(img/MaskGroup.png) no-repeat;
 padding-left: 601px;
-margin-left: 188px;
+margin-left: 186px;
 background-size: contain;
-height: 550px;
+height: 561px;
 }
 .section__title {
 padding-top: 100px;
@@ -63,6 +94,23 @@ text-decoration: none;
 padding-top: 1px;
     margin-left: 50px;
 }
+.strelka2_img{
+      margin-left: 22px;
+}
+.icon{
+  margin-top: 82px;
+margin-left: 52px;
+}
+.icon__link-inst{
+  padding-right: 8px;
+}
+.icon__link-facebook{
+padding-left: 8px;
+}
+.icon__link-scroll{
+      margin-left: 505px;
+}
+
 .section2__title{
   font:  normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
 }
