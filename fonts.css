@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'montserrat-bold';
     src:
-        url('Montserrat-Bold.woff') format('woff');
+        url('fonts/Montserrat-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -14,7 +14,7 @@
 @font-face {
     font-family: 'montserrat-medium';
     src:
-        url('Montserrat-Medium.woff') format('woff');
+        url('fonts/Montserrat-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -25,7 +25,7 @@
 @font-face {
     font-family: 'montserrat-regular';
     src:
-        url('Montserrat-Regular.woff') format('woff');
+        url('fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
