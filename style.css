@@ -6,7 +6,7 @@ body {
   display: flex;
     justify-content: space-between;
     padding-top: 35px;
-margin-bottom: 33px;
+margin-bottom: 98px;
 }
 .page1{
   height: 900px;
@@ -16,14 +16,16 @@ background: linear-gradient(to right, #000000 461px, #E5E5E5 32%);
 .logo__text{
 font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
 color: white;
-padding-left: 54px;
+padding-left: 52px;
 letter-spacing: 2px;
 }
-
+.img{
+      margin-left: 8px;
+}
 .language{
 font: normal 20px/25px 'montserrat-medium', arial, helvetica, sans-serif;
-padding-right: 759px;
-padding-top: 6px;
+padding-right: 741px;
+padding-top: 7px;
 color: white;
 }
 
@@ -35,9 +37,7 @@ background-size: contain;
 height: 550px;
 }
 .section__title {
-padding-top: 131px;
-padding-left: 5px;
-letter-spacing: 3px;
+padding-top: 100px;
 margin-bottom: 20px;
 font:  normal 80px/82px 'montserrat-bold', arial, helvetica, sans-serif;
 font-weight: 700;
@@ -45,12 +45,23 @@ font-weight: 700;
 .section__subtitle{
   font:  normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
   padding-right: 185px;
+      margin-bottom: 52px;
 }
 .section__button{
   font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+  color: #000000;
+text-decoration: none;
+border: 1.5px solid #000000;
+box-sizing: border-box;
+margin-left: -3px;
+    padding: 13px 40px 12px 40px;
 }
 .section__button-next{
   font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+  color: #000000;
+text-decoration: none;
+padding-top: 1px;
+    margin-left: 50px;
 }
 .section2__title{
   font:  normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
