@@ -1,0 +1,273 @@
+body {
+    display: block;
+    margin: 0px;
+}
+input[type=checkbox]{
+  display: none;
+}
+.header{
+  display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+margin-bottom: -24px;
+}
+
+.menu__btn > span,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: #000000;
+  margin-left: 29px;
+margin-bottom: 10px;
+}
+
+
+.menu__btn > span::after {
+  content: '';
+  top: 9px;
+  margin-left: 0px;
+
+}
+.menu__btn {
+  display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: -17px;
+    width: 92px;
+    height: 92px;
+    background-color: #E5E5E5;
+}
+
+.page1{
+  height: 900px;
+width: 100vw;;
+background: linear-gradient(to right, #000 461px, #FFF 32%);
+}
+.logo__text{
+font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
+color: white;
+padding-left: 52px;
+letter-spacing: 2px;
+}
+
+.language{
+font: normal 20px/25px 'montserrat-medium', arial, helvetica, sans-serif;
+margin-left: 389px;
+    position: absolute;
+padding-top: 7px;
+color: white;
+}
+
+.section{
+  background: url(img/MaskGroup.png) no-repeat;
+padding-left: 601px;
+margin-left: 186px;
+background-size: contain;
+height: 561px;
+}
+.section__title {
+padding-top: 100px;
+margin-bottom: 20px;
+font:  normal 80px/82px 'montserrat-bold', arial, helvetica, sans-serif;
+font-weight: 700;
+}
+.section__subtitle{
+  font:  normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+  padding-right: 185px;
+      margin-bottom: 52px;
+}
+.section__button{
+  font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+  color: #000000;
+text-decoration: none;
+border: 1.5px solid #000000;
+box-sizing: border-box;
+margin-left: -3px;
+    padding: 13px 40px 12px 40px;
+}
+.section__button-next{
+  font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+  color: #000000;
+text-decoration: none;
+padding-top: 1px;
+    margin-left: 50px;
+}
+.strelka2_img{
+      margin-left: 22px;
+}
+.icon{
+  margin-top: 82px;
+margin-left: 52px;
+}
+.icon__link-inst{
+  padding-right: 8px;
+}
+.icon__link-facebook{
+padding-left: 8px;
+}
+.icon__link-scroll{
+      margin-left: 505px;
+}
+.strelka3_img{
+  display: none;
+  }
+
+.section2__title{
+  font:  normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section2__title2{
+  font:  normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section2__subtitle{
+  font:  normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+}
+.section2_price{
+  font:  normal 40px/56px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section2_button-1{
+    font:  normal 15px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.section2_button-2{
+  font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.section2__button-next{
+    font:  normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.section3__title{
+    font:  normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section3__title2{
+  font:  normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section3__subtitle,
+.section3__subtitle2{
+  font:  normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+}
+.section3_button-1{
+    font:  normal 15px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.section3_button-2{
+  font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+.section3__button-next{
+    font:  normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
+}
+
+@media (max-width: 1300px){
+  .section__title {
+    font: normal 71px/74px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section__subtitle {
+    padding-right: 125px;
+}
+.section__button {
+font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
+    }
+    .strelka2_img {
+    margin-left: 22px;
+    width: 36px;
+}
+.section__button-next {
+    margin-left: 5px;
+    font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
+  }
+.strelka3_img{
+  display: none;
+  }}
+  @media (max-width: 1200px){
+    .section {
+    background: url(img/MaskGroup.png) no-repeat;
+    padding-left: 46vw;
+    margin-left: 90px;
+    background-size: 41vw;
+
+}
+.section__title {
+      padding-top: 10%;
+    font: normal 65px/59px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section__subtitle {
+    padding-right: 33px;
+}
+  }
+    @media (max-width: 900px){
+      .page1 {
+
+    background: linear-gradient(to right, #000 386px, #FFF 32%);
+}
+      .section {
+    padding-left: 50vw;
+    margin-left: 30px;
+    background-size: 47vw;
+    }
+    .section__title {
+    padding-top: 5%;
+    font: normal 59px/50px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section__button{
+    padding: 15px 24px 12px 24px;}
+  }
+  @media (max-width: 768px){
+    .header {
+        margin-bottom: 60px;
+    }
+  /*  .page1 {
+    height: 860px;
+}*/
+    .language,
+      .section__subtitle,
+      .section__button,
+      .section__button-next,
+      .icon
+      {
+      display: none;
+    }
+    .section {
+      padding-left: 0vw;
+      margin-left: 19vw;
+      background-size: 67vw;
+      width: 100%;
+ }
+ .section__title {
+   font: normal 50px/50px 'montserrat-bold', arial, helvetica, sans-serif;
+   position: absolute;
+   padding-left: 34px;
+   width: 59vw;
+   /* margin-top: 0vw; */
+   /* margin-bottom: 54vw; */
+   padding-top: 42vw;
+   float: inherit;
+   overflow: hidden;
+}}
+  @media (max-width: 500px){
+    .header {
+      padding-top: 35px;
+    }
+    .logo__text {
+    padding-left: 26px;
+    color: black;
+  }
+  .page1__wrapper{
+    margin-top: -40px;
+  }
+  .page1 {
+/*  height: 667px;*/
+  background: white;
+}
+
+  .section {
+      margin-left: 0px;
+      background: url(img/mobile.png) no-repeat;
+      background-size: 100%;}
+      .section__title {
+    padding-top: 506px;
+    margin-left: 0px;}
+    .strelka3_img{
+      display: block;
+    margin-left: 190px;
+    margin-top: 12px;
+    }
+  }
