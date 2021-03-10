@@ -42,9 +42,9 @@ margin-bottom: 10px;
 }
 
 .page1{
-  height: 900px;
-width: 100vw;;
-background: linear-gradient(to right, #000 461px, #FFF 32%);
+/*  height: 900px;*/
+width: 100%ы;
+background: linear-gradient(to right, #000 32%, #FFF 32%);
 }
 .logo__text{
 font: normal 30px/37px 'montserrat-medium', arial, helvetica, sans-serif;
@@ -229,8 +229,18 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
       padding-left: 0vw;
       margin-left: 19vw;
       background-size: 67vw;
-      width: 100%;
+      width: 81%;
  }
+ .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0;
+  /*  left: 107%;*/
+    width: 92px;
+    height: 92px;
+    background-color: #E5E5E5;}
  .section__title {
    font: normal 50px/50px 'montserrat-bold', arial, helvetica, sans-serif;
    position: absolute;
@@ -244,30 +254,52 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
 }}
   @media (max-width: 500px){
     .header {
-      padding-top: 35px;
-    }
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin-bottom: -24px;
+  }
     .logo__text {
     padding-left: 26px;
     color: black;
   }
   .page1__wrapper{
-    margin-top: -40px;
+    margin-top: 44px;
   }
   .page1 {
 /*  height: 667px;*/
   background: white;
 }
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+
+    right: 0px;
+    width: 92px;
+    height: 92px;}
 
   .section {
       margin-left: 0px;
       background: url(img/mobile.png) no-repeat;
-      background-size: 100%;}
+      background-size: 100%;
+      width: 100%;
+    }
       .section__title {
-    padding-top: 506px;
-    margin-left: 0px;}
+
+        padding-left: 80px;
+    width: 80vw;
+        padding-top: 76vw;}
     .strelka3_img{
       display: block;
-    margin-left: 190px;
+    margin-left: 156px;
     margin-top: 12px;
     }
   }
+  @media (max-width: 400px){
+.section__title {
+    padding-left: 43px;
+    width: 85vw;
+    padding-top: 99vw;
+}}
