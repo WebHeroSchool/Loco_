@@ -35,7 +35,7 @@ margin-bottom: 10px;
     align-items: center;
     position: absolute;
     top: 0px;
-    right: -17px;
+    right: 0px;
     width: 92px;
     height: 92px;
     background-color: #E5E5E5;
@@ -64,20 +64,22 @@ color: white;
 .section{
   background: url(img/MaskGroup.png) no-repeat;
 padding-left: 601px;
-margin-left: 186px;
+margin-left: 188px;
+margin-top: 119px;
 background-size: contain;
 height: 561px;
 }
 .section__title {
-padding-top: 100px;
-margin-bottom: 20px;
+  padding-top: 105px;
+  margin-bottom: 20px;
 font:  normal 80px/82px 'montserrat-bold', arial, helvetica, sans-serif;
 font-weight: 700;
 }
 .section__subtitle{
   font:  normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
   padding-right: 185px;
-      margin-bottom: 52px;
+margin-top: 18px;
+margin-bottom: -5px;
 }
 .section__button{
   font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
@@ -93,7 +95,7 @@ margin-left: -3px;
   color: #000000;
 text-decoration: none;
 padding-top: 1px;
-    margin-left: 50px;
+    margin-left: 31px;
 }
 .strelka2_img{
       margin-left: 22px;
@@ -101,6 +103,7 @@ padding-top: 1px;
 .icon{
   margin-top: 82px;
 margin-left: 52px;
+padding-bottom: 40px;
 }
 .icon__link-inst{
   padding-right: 8px;
@@ -109,7 +112,8 @@ margin-left: 52px;
 padding-left: 8px;
 }
 .icon__link-scroll{
-      margin-left: 505px;
+      margin-left: 500px;
+      margin-top: 5px;
 }
 .strelka3_img{
   display: none;
@@ -230,6 +234,7 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
       margin-left: 19vw;
       background-size: 67vw;
       width: 81%;
+          margin-top: 40px;
  }
  .menu__btn {
     display: flex;
@@ -285,12 +290,13 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
       background: url(img/mobile.png) no-repeat;
       background-size: 100%;
       width: 100%;
+      margin-top: 0px;
+    height: 122vw;
     }
       .section__title {
-
         padding-left: 80px;
-    width: 80vw;
-        padding-top: 76vw;}
+  width: 80vw;
+  padding-top: 74vw;}
     .strelka3_img{
       display: block;
     margin-left: 156px;
@@ -298,8 +304,26 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
     }
   }
   @media (max-width: 400px){
+    .header {
+    padding-top: 14px;
+    margin-bottom: -25px;
+}
+.menu__btn {
+    width: 70px;
+    height: 70px;
+}
+.menu__btn > span, .menu__btn > span::after {
+    width: 26px;
+    height: 4px;
+
+    margin-bottom: 10px;}
+    .section {
+    margin-top: 0px;
+    height: 141vw;
+}
 .section__title {
-    padding-left: 43px;
-    width: 85vw;
-    padding-top: 99vw;
-}}
+  padding-left: 26px;
+      width: 93vw;
+      padding-top: 89vw;
+}
+}
