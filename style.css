@@ -230,21 +230,66 @@ height: 844px;
   top: 0;
       left: 16vw;
     }
+    .page3{
+      background: linear-gradient(to right, #000 7%, #EBE3D8 7%);
+border-left: 27vw solid #EBE3D8;
+    }
+    .page3__wrapper{
+      position: relative;
+    }
+   .clothes {
+  position: absolute;
+margin-top: 9.5vw;
+margin-left: -21vw;
+}
+
+    .section3{
+        position: absolute;
+        box-sizing: border-box;
+        margin-left: 30vw;
+        margin-top: 17.5vw;
+        width: 33vw;
+        background-color: #FAE8E4;
+        padding: 0.6vw 2vw 2.8vw 1.5vw;
+    }
+
 .section3__title{
     font:  normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
+    margin-left: 1.5vw;
+    margin-bottom: 0vw;
 }
 .section3__title2{
-  font:  normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
+  letter-spacing: 1px;
+font: normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
+margin-left: 1.5vw;
+margin-bottom: 2.4vw;
 }
-.section3__subtitle,
-.section3__subtitle2{
-  font:  normal 15px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+.section3__subtitle
+{
+  font: normal 15px/22px 'montserrat-regular', arial, helvetica, sans-serif;
+      margin-left: 1.7vw;
+      padding-right: 4vw;
+      margin-bottom: 4.6vw;
 }
 .section3_button-1{
+  letter-spacing: 8.5px;
+color: #000000;
+text-decoration: none;
+border: 1.5px solid #000000;
+box-sizing: border-box;
+margin-left: 1.5vw;
+padding: 0.8vw 0 0.7vw 0.8vw;
     font:  normal 15px 'montserrat-medium', arial, helvetica, sans-serif;
 }
 .section3_button-2{
   font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+  font: normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+    color: #000000;
+    text-decoration: none;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    margin-left: 1.4vw;
+    padding: 0.8vw 3.2vw 0.8vw 2.7vw;
 }
 .section3__button-next{
     font:  normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
@@ -339,7 +384,7 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
 }
 .section__button{
     padding: 15px 24px 12px 24px;}
-  
+
   .section2 {
     margin-left: 56vw;
     width: 41vw;
@@ -410,8 +455,15 @@ margin-top: 0;
     margin-left: 45vw;
     margin-bottom: 4.5vw;
 }
-.bags{width: 21vw;
-    height: 45.6vw;
+.bags{    width: 66vw;
+    height: 42.6vw;
+    background: url(img/pink2.png) no-repeat;
+    background-size: 61%;
+    background-position-y: 8vw;
+    margin-left: 31vw;
+}
+.pink {
+    display: none;
 }}
   @media (max-width: 500px){
     .header {
@@ -458,7 +510,32 @@ margin-top: 0;
     margin-left: 156px;
     margin-top: 12px;
     }
+    .bags {
+        width: 79vw;
+        height: 61.6vw;
+        background-size: 77%;
+        background-position-y: 8vw;
+        margin-left: 17vw;
+    }
+    .section2 {
+    margin-left: 16vw;
+    width: 72vw;
+    padding: 1.6vw 1.5vw 4.8vw 0;
+    margin-top: 0;
+}.section2__subtitle {
+    font: normal 9px/21px 'montserrat-regular', arial, helvetica, sans-serif;
+    margin-left: 4vw;
 
+}
+.section2_price {
+    font: normal 25px/36px 'montserrat-bold', arial, helvetica, sans-serif;
+    margin-left: 50vw;
+    margin-bottom: 1.5vw;
+}
+.section2_button-2 {
+    font: normal 11px 'montserrat-medium', arial, helvetica, sans-serif;
+
+}
   }
   @media (max-width: 400px){
     .header {
@@ -483,4 +560,69 @@ margin-top: 0;
       width: 93vw;
       padding-top: 89vw;
 }
+.bags {
+  width: 79vw;
+height: 61.6vw;
+background-size: 75%;
+background-position-y: 12vw;
+margin-left: 20vw;
 }
+.section2 {
+    margin-left: 7.5vw;
+    width: 85vw;
+    padding: 3vw 1.5vw 8.8vw 0;
+    margin-top: 7vw;
+}
+.section2__title {
+    margin: 2.4vw 0 2vw 8vw;
+    font: normal 20px/11px 'montserrat-bold', arial, helvetica, sans-serif;
+}
+.section2__title2 {
+    margin: 0px 0 4vw 7.9vw;
+    letter-spacing: 0.8px;
+    font: normal 10px/11px 'montserrat-bold', arial, helvetica, sans-serif;
+  }
+    .section2__subtitle {
+    font: normal 9px/13px 'montserrat-regular', arial, helvetica, sans-serif;
+    margin-left: 8vw;
+    padding-right: 7vw;
+}
+.circle__gray {
+    height: 6vw;
+    width: 6vw;
+    margin-left: 9vw;
+    margin-top: 5.7vw;
+}
+.circle__red {
+    height: 7.5vw;
+    width: 7.5vw;
+    margin-left: 17.9vw;
+    margin-top: -7vw;
+}
+.circle__blue {
+    height: 6.1vw;
+    width: 6.1vw;
+    margin-left: 28vw;
+    margin-top: -7vw;
+}
+.circle__green {
+    background: #90BD8F;
+    border-radius: 50%;
+    height: 6vw;
+    width: 6vw;
+    margin-left: 36.9vw;
+    margin-top: -6vw;
+}
+.section2_button-2 {
+    font: normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+padding: 2vw 13vw 3vw 12vw;
+margin-left: 8vw;
+}
+.section2_price {
+    font: normal 20px/4px 'montserrat-bold', arial, helvetica, sans-serif;
+    margin-left: 59vw;
+    margin-bottom: 13.5vw;
+}
+.page2 {
+    padding-bottom: 16.5vw;
+}}
