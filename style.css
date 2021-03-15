@@ -120,14 +120,16 @@ padding-left: 8px;
   }
 .page2{
       background-color: #FAE8E4;
+          padding-bottom: 5.5vw;
 }
-.section2{
+.section2 {
   box-sizing: border-box;
     margin-left: 61vw;
     margin-top: -47vw;
     width: 34vw;
     background-color: #fff;
-    padding: 1.6vw 1.5vw 2.8vw 0;
+    padding: 1.6vw 1.5vw 3.8vw 0;
+
     box-shadow: 2px 25px 37px -2px #e4d3d0;
 }
 .section2__title{
@@ -158,7 +160,7 @@ padding-left: 8px;
       border: 1.5px solid #000000;
       box-sizing: border-box;
       margin-left: 4vw;
-      padding: 0.8vw 0 1vw 0.9vw;
+      padding: 0.8vw 0 0.7vw 0.9vw;
 }
 .section2_button-2{
   font:  normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
@@ -170,7 +172,13 @@ margin-left: 1vw;
 padding: 1vw 3.2vw 0.8vw 2.8vw;
 }
 .section2__button-next{
-    font:  normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
+  font: normal 13px/98px 'montserrat-medium', arial, helvetica, sans-serif;
+      padding-left: 61.4vw;
+  text-decoration: none;
+  color: black;
+}
+.strelka4_img{
+  margin-left: 0.8vw;
 }
 .circle{
   margin-bottom: -3.2vw;
@@ -206,6 +214,22 @@ width: 2vw;
 margin-left: 13.2vw;
 margin-top: 1vw;
 }
+.bags{
+  position: relative;
+width: 582px;
+height: 844px;
+}
+.gray {
+  position: absolute;
+  top: 15vw;
+  left: 8.5vw;
+
+}
+.pink{
+  position: absolute;
+  top: 0;
+      left: 16vw;
+    }
 .section3__title{
     font:  normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
 }
@@ -225,26 +249,7 @@ margin-top: 1vw;
 .section3__button-next{
     font:  normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
 }
-.bags{
-  position: relative;
-width: 582px;
-height: 844px;
-}
-.gray {
-  position: absolute;
-  top: 15vw;
-  left: 8.5vw;
 
-}
-.pink{
-  position: absolute;
-  top: 0;
-      left: 16vw;}
-}
-/*.section2{
-  background: url(img/gray.png) no-repeat,url(img/pink.png)  no-repeat;
-
-}*/
 @media (max-width: 1300px){
   .section__title {
     font: normal 71px/74px 'montserrat-bold', arial, helvetica, sans-serif;
@@ -265,7 +270,27 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
   }
 .strelka3_img{
   display: none;
-  }}
+  }
+.bags{
+  width: 20vw;
+    height: 58.6vw;
+    /* margin-right: 3vw; */
+    margin-left: -6vw;
+  }
+  .section2{
+    margin-left: 59vw;
+  }
+.section2_button-1 {
+        margin-left: 2vw;
+  }
+  .section2__button-next{
+    padding-left: 59.4vw;
+    }
+    .strelka4_img {
+    width: 13vw;
+    margin-left: 0.8vw;
+}
+}
   @media (max-width: 1200px){
     .section {
     background: url(img/MaskGroup.png) no-repeat;
@@ -274,6 +299,12 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
     background-size: 41vw;
 
 }
+.gray {
+    width: 30vw;
+}
+.pink {
+    width: 43vw;
+}
 .section__title {
       padding-top: 10%;
     font: normal 65px/59px 'montserrat-bold', arial, helvetica, sans-serif;
@@ -281,7 +312,17 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
 .section__subtitle {
     padding-right: 33px;
 }
+.section2_button-1 {
+    font: normal 12px 'montserrat-medium', arial, helvetica, sans-serif;
   }
+  .section2_button-2 {
+    font: normal 11px 'montserrat-medium', arial, helvetica, sans-serif;
+    padding: 1vw 1.2vw 0.8vw 2.8vw;}
+    .strelka4_img {
+    width: 9vw;
+    }
+  }
+
     @media (max-width: 900px){
       .page1 {
 
@@ -298,7 +339,12 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
 }
 .section__button{
     padding: 15px 24px 12px 24px;}
-  }
+  
+  .section2 {
+    margin-left: 56vw;
+    width: 41vw;
+    padding: 1.6vw 1.5vw 2.8vw 0;
+}}
   @media (max-width: 768px){
     .header {
         margin-bottom: 60px;
@@ -341,6 +387,31 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
    padding-top: 42vw;
    float: inherit;
    overflow: hidden;
+}
+.gray,
+.section2__button-next,
+.section2_button-1
+{
+  display: none;
+}
+.section2 {
+margin-left: 19vw;
+width: 67vw;
+padding: 1.6vw 1.5vw 4.8vw 0;
+margin-top: 0;
+}
+.section2_button-2 {
+    font: normal 13px 'montserrat-medium', arial, helvetica, sans-serif;
+    padding: 3vw 3vw 3vw 3vw;
+    margin-left: 17vw;
+}
+.section2_price {
+    font: normal 37px/56px 'montserrat-bold', arial, helvetica, sans-serif;
+    margin-left: 45vw;
+    margin-bottom: 4.5vw;
+}
+.bags{width: 21vw;
+    height: 45.6vw;
 }}
   @media (max-width: 500px){
     .header {
@@ -387,6 +458,7 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
     margin-left: 156px;
     margin-top: 12px;
     }
+
   }
   @media (max-width: 400px){
     .header {
