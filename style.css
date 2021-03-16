@@ -230,54 +230,45 @@ height: 844px;
   top: 0;
       left: 16vw;
     }
-    .section3{
-        position: absolute;
-        box-sizing: border-box;
-        margin-left: 30vw;
-        margin-top: 0vw;
-        width: 33vw;
-        background-color: #FAE8E4;
-        padding: 0.6vw 2vw 3.8vw 1.5vw;
-    }
-  /*  .page3{
-      background: linear-gradient(to right, #000 7%, #EBE3D8 7%);
-border-left: 27vw solid #EBE3D8;
-    }
+
+  .page3{
+  background: linear-gradient(to right, #EBE3D8 27%, #000 27%, #000 32%, #EBE3D8 31%, #EBE3D8 75%);
+}
+
     .page3__wrapper{
-      padding-bottom: 10vw;
+      padding-bottom: 16.5vw;
     }
    .clothes {
-  position: relative;
-margin-top: 9.5vw;
-margin-left: -21vw;
-}/*
+     position: relative;
+       margin-top: 9.7vw;
+       margin-left: 6vw;}
 
-    .section3{
-        position: absolute;
-        box-sizing: border-box;
-        margin-left: 30vw;
-        margin-top: -35.5vw;
-        width: 33vw;
-        background-color: #FAE8E4;
-        padding: 0.6vw 2vw 3.8vw 1.5vw;
-    }
+.section3{
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 56.5vw;
+    margin-top: -35.5vw;
+    width: 33vw;
+    background-color: #FAE8E4;
+    padding: 0.6vw 2vw 3.8vw 1.5vw;
+}
 
-/*.section3__title{
-    font:  normal 40px/41px 'montserrat-bold', arial, helvetica, sans-serif;
-    margin-left: 1.5vw;
+.section3__title{
+    font:  normal 40px/38px 'montserrat-bold', arial, helvetica, sans-serif;
+    margin-left: 2vw;
     margin-bottom: 0vw;
 }
 .section3__title2{
   letter-spacing: 1px;
 font: normal 16px/16px 'montserrat-bold', arial, helvetica, sans-serif;
-margin-left: 1.5vw;
+margin-left: 2vw;
 margin-bottom: 2.4vw;
 }
 .section3__subtitle
 {
   font: normal 15px/22px 'montserrat-regular', arial, helvetica, sans-serif;
-      margin-left: 1.7vw;
-      padding-right: 4vw;
+      margin-left: 2.3vw;
+      padding-right: 2vw;
       margin-bottom: 4.6vw;
 }
 .section3_button-1{
@@ -286,7 +277,7 @@ color: #000000;
 text-decoration: none;
 border: 1.5px solid #000000;
 box-sizing: border-box;
-margin-left: 1.5vw;
+margin-left: 2vw;
 padding: 0.8vw 0 0.7vw 0.8vw;
     font:  normal 15px 'montserrat-medium', arial, helvetica, sans-serif;
 }
@@ -297,13 +288,33 @@ padding: 0.8vw 0 0.7vw 0.8vw;
     text-decoration: none;
     border: 1.5px solid #000000;
     box-sizing: border-box;
-    margin-left: 1.4vw;
-    padding: 0.8vw 3.2vw 0.8vw 2.7vw;
+    margin-left: 1.2vw;
+        padding: 0.8vw 3.2vw 0.8vw 3vw;
 }
-.section3__button-next{
-    font:  normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;
-}*/
+.button-next{
+    font:  normal 13px/16px 'montserrat-medium', arial, helvetica, sans-serif;text-decoration: none;
+    color: black;
+}
+.btn_temp{
+  margin-top: -8.5vw;
+      margin-left: 65.9vw;
+}
+.strelka5_img{
+      margin-left: 0.8vw;
+}
+@media (max-width: 1400px){
+  .section3_button-1 {
+    margin-left: 0vw;
+}
+.btn_temp {
+    margin-top: -4.5vw;
+    margin-left: 74.9vw;
+}
 
+.strelka5_img {
+    margin-left: 0.8vw;
+    width: 5vw;
+  }
 @media (max-width: 1300px){
   .section__title {
     font: normal 71px/74px 'montserrat-bold', arial, helvetica, sans-serif;
@@ -375,6 +386,21 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
     .strelka4_img {
     width: 9vw;
     }
+    .section3 {
+    padding: 0.6vw 0.2vw 3.8vw 1.5vw;
+    margin-left: 51.5vw;
+    width: 39vw;
+}
+.btn_temp {
+    margin-top: 0.5vw;
+    margin-left: 48.9vw;
+}
+.section3_button-2{
+  padding: 0.8vw 1.2vw 0.8vw 2vw
+}
+.section3_button-1 {
+    margin-left: 4vw;
+}
   }
 
     @media (max-width: 900px){
@@ -398,7 +424,27 @@ font:  normal 10px 'montserrat-medium', arial, helvetica, sans-serif;
     margin-left: 56vw;
     width: 41vw;
     padding: 1.6vw 1.5vw 2.8vw 0;
-}}
+}
+.section3 {
+    width: 46vw;
+}
+.clothes {
+    width: 80vw;
+}
+.btn_temp {
+    margin-top: 7.5vw;
+    margin-left: 38.9vw;
+}
+.button-next {
+    font: normal 15px/16px 'montserrat-medium', arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.strelka5_img {
+    margin-left: 0.8vw;
+    width: 133.5px;
+}
+}
   @media (max-width: 768px){
     .header {
         margin-bottom: 60px;
@@ -473,7 +519,27 @@ margin-top: 0;
 }
 .pink {
     display: none;
-}}
+}
+.section3 {
+    width: 70vw;
+    margin-left: 11.5vw;
+    margin-top: -12.5vw;
+}
+.section3_button-1 {
+    margin-left: 4vw;
+    display: none;
+}.section3_button-2 {
+    padding: 2.8vw 3.2vw 2.8vw 3vw;
+    margin-left: 18.2vw;
+}
+.btn_temp {
+    margin-top: 45.5vw;
+    margin-left: 32.9vw;
+}.button-next {
+    font: normal 15px/16px 'montserrat-medium', arial, helvetica, sans-serif;}
+    .strelka5_img {
+      width: 133.5px;
+  }}
   @media (max-width: 500px){
     .header {
     display: flex;
@@ -544,6 +610,27 @@ margin-top: 0;
 .section2_button-2 {
     font: normal 11px 'montserrat-medium', arial, helvetica, sans-serif;
 
+}
+.clothes {
+    width: 88vw;
+}
+.section3 {
+    width: 63vw;
+    margin-left: 20.5vw;
+    margin-top: -12.5vw;}
+    .section3__title {
+    font: normal 20px/38px 'montserrat-bold', arial, helvetica, sans-serif;}
+    .section3__title2 {
+
+    font: normal 10px/16px 'montserrat-bold', arial, helvetica, sans-serif;
+
+}
+.section3__subtitle {
+    font: normal 9px/22px 'montserrat-regular', arial, helvetica, sans-serif;
+}
+.section3_button-2 {
+    padding: 2.8vw 8.2vw 1.8vw 7vw;
+    margin-left: 3.2vw;
 }
   }
   @media (max-width: 400px){
@@ -634,4 +721,40 @@ margin-left: 8vw;
 }
 .page2 {
     padding-bottom: 16.5vw;
+}
+.clothes{
+      margin-top: 9.1vw;
+          width: 93vw;
+  }
+  .section3 {
+      padding: 0.6vw 0.2vw 9.8vw 1.5vw;
+      width: 81vw;
+  margin-left: 12.5vw;
+  margin-top: -7.5vw;}
+  .section3__title {
+    margin-left: 5vw;
+      margin-bottom: -3.5vw;}
+      .section3__title2 {
+    letter-spacing: 0.7px;
+        font: normal 10px/15px 'montserrat-bold', arial, helvetica, sans-serif;
+    margin-left: 5vw;
+
+}
+.section3__subtitle {
+    font: normal 9px/12px 'montserrat-regular', arial, helvetica, sans-serif;
+    margin-left: 4.3vw;
+    padding-right: 14vw;
+    margin-bottom: 8.5vw
+}
+.section3_button-2 {
+    padding: 2.8vw 12.2vw 1.8vw 12vw;
+    margin-left: 5.2vw;
+}
+.btn_temp {
+    margin-top: 55vw;
+    padding-right: 7vw;
+    margin-left: 50.9vw;
+}
+.page3 {
+    background: linear-gradient(to right, #EBE3D8 28%, #000 27%, #000 39%, #EBE3D8 34%, #EBE3D8 72%);
 }}
